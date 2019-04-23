@@ -13,7 +13,10 @@ function produceDrivingRange(range)
     }
   };
 };
-function produceTipCalculator()
+function produceTipCalculator(percentage)
 {
-  
+  return function(fare)
+  {
+    return fare*percentage;
+  }
 }
