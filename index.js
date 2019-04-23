@@ -11,5 +11,5 @@ function produceDrivingRange(range)
     else {
       return `within range by %{rangeOffset}`
     }
-  }
+  };
 }
