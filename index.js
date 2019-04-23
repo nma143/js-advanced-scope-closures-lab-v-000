@@ -13,4 +13,3 @@ function produceDrivingRange(range)
     }
   };
 };
-
