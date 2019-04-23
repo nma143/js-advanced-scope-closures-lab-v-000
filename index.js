@@ -9,7 +9,7 @@ function produceDrivingRange(range)
       return `%{rangeOffset} blocks out of range`
     }
     else {
-      return `within range by %{rangeOffset}`
+      return `within range by %{rangeOffset}`;
     }
 
 
